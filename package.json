@@ -1,0 +1,27 @@
+{
+  "name": "fandangoapies6",
+  "version": "0.0.0",
+  "description": "Fandango proxy server written in ES6",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/jasmine-node/bin/jasmine-node ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:christianjoun/fandangoproxyes6.git"
+  },
+  "author": "Christian Joun",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "frisby": "^0.8.5",
+    "jasmine-node": "^1.14.5",
+    "jscs": "^3.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "request": "^2.74.0"
+  },
+  "engines" : { "node" : ">6.3.0" }
+}
